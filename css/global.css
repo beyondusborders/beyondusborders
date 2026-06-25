@@ -275,6 +275,20 @@ main{outline:none}
 .footer-legal{font-size:.75rem;color:var(--soft);line-height:1.65}
 
 /* ------------------------------------------------------------
+   Timeline
+   ------------------------------------------------------------ */
+.timeline{display:flex;flex-direction:column;margin:28px 0}
+.tl-item{display:flex;gap:16px}
+.tl-marker{display:flex;flex-direction:column;align-items:center;flex-shrink:0;width:20px}
+.tl-dot{width:14px;height:14px;border-radius:50%;background:var(--blue);border:2px solid var(--card);outline:2px solid var(--blue);flex-shrink:0;margin-top:4px}
+.tl-line{width:2px;background:var(--line);flex:1;margin:4px 0}
+.tl-item:last-child .tl-line{display:none}
+.tl-body{padding-bottom:28px;display:flex;flex-direction:column;gap:6px}
+.when{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--sun);font-weight:500}
+.tl-body h2{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--ink);margin:0}
+.tl-body p{font-size:.92rem;color:var(--gray);line-height:1.7}
+
+/* ------------------------------------------------------------
    Flags (icon + body rows)
    ------------------------------------------------------------ */
 .flags{display:flex;flex-direction:column;gap:16px;margin:28px 0}
