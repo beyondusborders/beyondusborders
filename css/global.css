@@ -275,6 +275,20 @@ main{outline:none}
 .footer-legal{font-size:.75rem;color:var(--soft);line-height:1.65}
 
 /* ------------------------------------------------------------
+   Budget grid
+   ------------------------------------------------------------ */
+.budget-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0}
+.budget-card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px 22px;display:flex;flex-direction:column;gap:6px}
+.budget-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--sun);font-weight:500}
+.budget-card h2{font-family:var(--sans);font-weight:600;font-size:.92rem;color:var(--ink);margin:0}
+.budget-card p{font-size:.88rem;color:var(--gray);line-height:1.65}
+
+/* ------------------------------------------------------------
+   Pull quote
+   ------------------------------------------------------------ */
+.quote{display:block;font-family:var(--serif);font-size:1.05rem;font-weight:400;color:var(--ink);border-left:3px solid var(--sun);padding:14px 20px;margin:28px 0;line-height:1.7;font-style:italic}
+
+/* ------------------------------------------------------------
    Options list (medicare-style numbered options)
    ------------------------------------------------------------ */
 .options{display:flex;flex-direction:column;gap:16px;margin:28px 0}
