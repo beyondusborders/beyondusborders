@@ -1,305 +1,132 @@
-/* ============================================================
-   Beyond US Borders — global.css
-   Single stylesheet for all site pages.
-   Last updated: 2026
-   ============================================================ */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Medicare & Healthcare Coverage Abroad | Beyond US Borders</title>
+<meta name="description" content="Medicare does not follow you outside the U.S. Here's what that means for your healthcare coverage strategy as a retiree living abroad — and your real options.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/beyondusborders/css/global.css">
+<link rel="icon" type="image/png" href="/beyondusborders/busb_favicon.png">
+</head>
+<body>
 
-/* ------------------------------------------------------------
-   Design tokens
-   ------------------------------------------------------------ */
-:root{
-  --ink:#062A4C;
-  --blue:#6596C1;
-  --tint:#EAF1F8;
-  --tint2:#DCE8F4;
-  --line:#C2D1E0;
-  --gray:#2E3C4A;
-  --soft:#4A5A68;
-  --sun:#C9912F;
-  --paper:#F6F8FB;
-  --card:#FFFFFF;
-  --serif:"Fraunces",Georgia,serif;
-  --sans:"Inter",-apple-system,system-ui,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,"Courier New",monospace;
-}
+<!-- Header -->
+<header class="site-header">
+  <a class="wordmark" href="https://beyondusborders.com">
+    <img src="/beyondusborders/busb_logo.png" alt="Beyond US Borders" width="40" height="40" style="border-radius:4px">
+  </a>
+  <a class="btn-sun" href="/beyondusborders/downloads/Destination-Determination-Workbook.pdf" target="_blank" rel="noopener">Free Workbook</a>
+</header>
 
-/* ------------------------------------------------------------
-   Reset & base
-   ------------------------------------------------------------ */
-*{box-sizing:border-box;margin:0;padding:0}
-html{font-size:20px}
-body{
-  background:var(--paper);
-  color:var(--ink);
-  font-family:var(--sans);
-  line-height:1.75;
-  -webkit-font-smoothing:antialiased;
-}
-a{color:inherit;text-decoration:none}
-a:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:3px}
-img{display:block;max-width:100%;height:auto}
+<div class="wrap">
 
-/* ------------------------------------------------------------
-   Layout
-   ------------------------------------------------------------ */
-.wrap{max-width:700px;margin:0 auto;padding:0 22px}
-main{outline:none}
+  <!-- Breadcrumb -->
+  <nav aria-label="Breadcrumb" class="breadcrumb">
+    <a href="https://beyondusborders.com">Home</a>
+    <span aria-hidden="true">›</span>
+    <a href="https://beyondusborders.com/topics">Topics</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">Medicare &amp; Healthcare</span>
+  </nav>
 
-/* ------------------------------------------------------------
-   Header
-   ------------------------------------------------------------ */
-.site-header{
-  background:var(--card);
-  border-bottom:1px solid var(--line);
-  padding:0 22px;
-  height:60px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  position:sticky;
-  top:0;
-  z-index:100;
-}
-.wordmark{
-  display:flex;
-  align-items:center;
-  line-height:1;
-}
-.wordmark:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:3px}
+  <!-- Hero divider -->
+  <svg class="hrule" viewBox="0 0 700 28" preserveAspectRatio="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="620" cy="10" r="7" fill="#C9912F" opacity=".9"/>
+    <path d="M0 18 Q80 12 160 18 T320 18 T480 18 T640 18 T800 18" fill="none" stroke="#6596C1" stroke-width="2"/>
+    <path d="M0 24 Q80 18 160 24 T320 24 T480 24 T640 24 T800 24" fill="none" stroke="#6596C1" stroke-width="1.4" opacity=".5"/>
+  </svg>
 
-/* ------------------------------------------------------------
-   Buttons
-   ------------------------------------------------------------ */
-.btn-sun{
-  font-family:var(--sans);
-  font-size:.8rem;
-  font-weight:600;
-  background:var(--sun);
-  color:#fff;
-  border-radius:6px;
-  padding:10px 20px;
-  letter-spacing:.01em;
-  white-space:nowrap;
-  transition:opacity .15s;
-}
-.btn-sun:hover{opacity:.88}
-.btn-sun:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:6px}
+  <!-- Main content -->
+  <main id="top" tabindex="-1">
+    <article class="section" id="medicare">
+      <div class="section-label">Healthcare Coverage</div>
+      <h1>Medicare &amp; healthcare <em>coverage abroad</em></h1>
+      <p class="lead">Medicare does not follow you outside the United States. For most procedures, the moment you cross the border, you're on your own. This is the single most important healthcare fact for anyone considering retirement abroad — and it requires a real plan, not just a note to look into it later.</p>
 
-/* ------------------------------------------------------------
-   Breadcrumb
-   ------------------------------------------------------------ */
-.breadcrumb{
-  padding:14px 0 0;
-  font-family:var(--mono);
-  font-size:.65rem;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-  color:var(--soft);
-}
-.breadcrumb a{color:var(--blue)}
-.breadcrumb a:hover{text-decoration:underline}
-.breadcrumb span{margin:0 6px;color:var(--line)}
+      <div class="note">
+        <strong>The hard truth:</strong> Medicare Parts A and B cover emergency care in Canada and Mexico only in very limited circumstances. For virtually everything else abroad, Medicare pays nothing. That includes routine care, specialist visits, prescriptions, surgery, and hospitalization.
+      </div>
 
-/* ------------------------------------------------------------
-   Hero divider
-   ------------------------------------------------------------ */
-.hrule{width:100%;height:28px;margin:28px 0 0}
+      <p class="lead">The good news is that healthcare in most popular retirement destinations costs a fraction of U.S. rates — even out of pocket. And most countries with established expat communities have healthcare options that are genuinely good, not just acceptable. The planning question isn't "can I get care?" It's "what's my coverage strategy and what will it cost?"</p>
 
-/* ------------------------------------------------------------
-   Section & typography
-   ------------------------------------------------------------ */
-.section{padding:48px 0 40px}
-.section-label{
-  font-family:var(--mono);
-  font-size:.65rem;
-  letter-spacing:.18em;
-  text-transform:uppercase;
-  color:var(--blue);
-  font-weight:500;
-  margin-bottom:10px;
-}
-.section h1{
-  font-family:var(--serif);
-  font-weight:500;
-  font-size:clamp(1.8rem,5vw,2.4rem);
-  line-height:1.1;
-  letter-spacing:-.01em;
-  margin-bottom:18px;
-}
-.section h1 em{font-style:normal;color:var(--blue)}
-.section h2{
-  font-family:var(--serif);
-  font-weight:500;
-  font-size:clamp(1.4rem,4vw,1.9rem);
-  line-height:1.2;
-  letter-spacing:-.01em;
-  margin-bottom:14px;
-}
-.section h2 em{font-style:normal;color:var(--blue)}
-.lead{
-  font-size:1rem;
-  color:var(--gray);
-  margin-bottom:28px;
-  line-height:1.75;
-}
+      <div class="options">
+        <div class="option">
+          <span class="tag">Option 1</span>
+          <h2>International health insurance</h2>
+          <p>Private international health insurance covers you wherever you live and typically includes emergency evacuation back to the U.S. Premiums increase with age and pre-existing conditions — price this early. For someone over 65 with a health history, costs can be significant. Some policies exclude pre-existing conditions entirely; others cover them after a waiting period.</p>
+        </div>
+        <div class="option">
+          <span class="tag">Option 2</span>
+          <h2>Enroll in the local public system</h2>
+          <p>Many countries allow legal residents to join the national healthcare system — often at low cost. Costa Rica's Caja, Portugal's SNS, and Spain's public system all cover residents including those with pre-existing conditions once enrolled. This is often the most affordable long-term option, but it requires legal residency first and may have a waiting period.</p>
+        </div>
+        <div class="option">
+          <span class="tag">Option 3</span>
+          <h2>Pay out of pocket for routine care, insure for catastrophic</h2>
+          <p>In lower-cost countries, routine doctor visits and even specialist appointments run a fraction of U.S. prices. Some expats cover day-to-day care out of pocket and carry a leaner international policy for hospitalization and emergencies only. This works better in countries where private care is genuinely affordable and accessible.</p>
+        </div>
+        <div class="option">
+          <span class="tag">Option 4</span>
+          <h2>Maintain U.S. home base, travel long-term</h2>
+          <p>Some people sidestep the Medicare gap entirely by not formally relocating — they maintain a U.S. address, spend extended time abroad, and return for any care they want Medicare to cover. Technically they're long-term travelers, not expats. It's a legitimate approach if you're close enough to travel when unwell, have a genuine support system at home, and are honest with yourself about whether that structure holds up as your health changes. It works best for people near Mexico or the Caribbean where a same-day return is realistic.</p>
+          <span class="honest">this is extended travel, not relocation — a meaningful lifestyle distinction</span>
+        </div>
+      </div>
 
-/* ------------------------------------------------------------
-   Callout / note
-   ------------------------------------------------------------ */
-.note{
-  background:var(--tint2);
-  border-left:3px solid var(--blue);
-  border-radius:0 8px 8px 0;
-  padding:16px 20px;
-  margin:28px 0;
-  font-size:.92rem;
-  color:var(--gray);
-  line-height:1.7;
-}
-.note strong{color:var(--ink)}
+      <div class="checklist">
+        <h2>Your healthcare coverage checklist</h2>
+        <ul>
+          <li>Decide whether to keep Medicare Part B while abroad — there's a cost to dropping it and re-enrolling later</li>
+          <li>Research international health insurance options and get quotes based on your age and health history</li>
+          <li>Find out whether your target country's public system covers legal residents with pre-existing conditions</li>
+          <li>Price private clinic visits and specialist appointments in your target country</li>
+          <li>Confirm your prescription medications are available by name or equivalent abroad</li>
+          <li>Research emergency medical evacuation coverage — most international policies include it</li>
+          <li>Understand what "enrollment waiting period" means for any public system you're considering</li>
+        </ul>
+      </div>
 
-/* ------------------------------------------------------------
-   Two-column cards
-   ------------------------------------------------------------ */
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
-.card{
-  background:var(--card);
-  border:1px solid var(--line);
-  border-radius:8px;
-  padding:20px 22px;
-}
-.card h2{
-  font-family:var(--sans);
-  font-weight:600;
-  font-size:.92rem;
-  margin-bottom:8px;
-  color:var(--ink);
-}
-.card h3{
-  font-family:var(--sans);
-  font-weight:600;
-  font-size:.92rem;
-  margin-bottom:8px;
-  color:var(--ink);
-}
-.card p{font-size:.88rem;color:var(--gray);line-height:1.65}
-.card.good{border-top:3px solid #1f7a42}
-.card.warn{border-top:3px solid var(--sun)}
-.card.bad{border-top:3px solid #a33030}
+      <span class="honest">verify current Medicare rules and international insurance options before deciding</span>
 
-/* ------------------------------------------------------------
-   Checklist
-   ------------------------------------------------------------ */
-.checklist{
-  background:var(--card);
-  border:1px solid var(--line);
-  border-radius:10px;
-  padding:24px 28px;
-  margin:28px 0;
-}
-.checklist h2{
-  font-family:var(--serif);
-  font-weight:500;
-  font-size:1.1rem;
-  margin-bottom:16px;
-  color:var(--ink);
-}
-.checklist ul{list-style:none;display:flex;flex-direction:column;gap:12px}
-.checklist li{
-  padding-left:26px;
-  position:relative;
-  font-size:.92rem;
-  color:var(--gray);
-  line-height:1.65;
-}
-.checklist li::before{
-  content:"";
-  position:absolute;
-  left:0;
-  top:6px;
-  width:14px;
-  height:14px;
-  border:2px solid var(--blue);
-  border-radius:3px;
-}
+      <a class="back-top" href="#top">&#8593; Back to top</a>
+    </article>
 
-/* ------------------------------------------------------------
-   Honest tag
-   ------------------------------------------------------------ */
-.honest{
-  display:inline-block;
-  font-family:var(--mono);
-  font-size:.65rem;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-  color:var(--sun);
-  background:#fdf6ec;
-  border:1px solid #e8d5b0;
-  border-radius:5px;
-  padding:5px 12px;
-  margin-top:14px;
-}
+    <!-- Downloads CTA -->
+    <section class="downloads" aria-label="Free downloads">
+      <div class="dl-primary">
+        <p class="dl-eyebrow">Not sure where you fit yet?</p>
+        <p class="dl-body">The free Destination Determination Workbook helps you map your must-haves — climate, healthcare, mobility, pets, budget, and more — before you fall in love with a country.</p>
+        <a class="btn-sun" href="/beyondusborders/downloads/Destination-Determination-Workbook.pdf" target="_blank" rel="noopener">Get the free Workbook</a>
+      </div>
+      <div class="dl-secondary">
+        <p class="dl-secondary-head">Already chose your destination?</p>
+        <p class="dl-body">The Moving Abroad Action Planner walks you through every step — residency, healthcare, banking, pets, logistics, and the exit plan most people forget.</p>
+        <a class="btn-outline" href="/beyondusborders/downloads/Moving-Abroad-Action-Planner.pdf" target="_blank" rel="noopener">Get the free Planner</a>
+      </div>
+    </section>
+  </main>
 
-/* ------------------------------------------------------------
-   Back to top
-   ------------------------------------------------------------ */
-.back-top{
-  display:inline-block;
-  font-family:var(--mono);
-  font-size:.65rem;
-  letter-spacing:.1em;
-  text-transform:uppercase;
-  color:var(--soft);
-  margin-top:40px;
-  padding:12px 0;
-  border-top:1px solid var(--line);
-  width:100%;
-  text-align:right;
-}
-.back-top:hover{color:var(--blue)}
-.back-top:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+</div><!-- /wrap -->
 
-/* ------------------------------------------------------------
-   Footer
-   ------------------------------------------------------------ */
-.site-footer{
-  background:var(--card);
-  border-top:1px solid var(--line);
-  padding:32px 22px;
-  margin-top:48px;
-}
-.footer-inner{display:flex;flex-direction:column;gap:14px}
-.footer-links{display:flex;flex-wrap:wrap;gap:18px;font-size:.8rem;color:var(--soft)}
-.footer-links a:hover{color:var(--blue)}
-.footer-links a:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:2px}
-.footer-legal{font-size:.75rem;color:var(--soft);line-height:1.65}
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <nav aria-label="Footer navigation" class="footer-links">
+        <a href="https://beyondusborders.com">Home</a>
+        <a href="https://beyondusborders.com/topics">Topics</a>
+        <a href="https://beyondusborders.com/destinations">Destinations</a>
+        <a href="https://beyondusborders.com/services">Services</a>
+        <a href="https://beyondusborders.com/legal">Legal</a>
+        <a href="https://beyondusborders.com/about">About</a>
+      </nav>
+      <p class="footer-legal">Beyond US Borders provides general research and information only — not financial, legal, medical, tax, or immigration advice. Some links are affiliate links; we may earn a commission at no cost to you. &copy; 2026 Beyond US Borders.</p>
+    </div>
+  </div>
+</footer>
 
-/* ------------------------------------------------------------
-   Options list (medicare-style numbered options)
-   ------------------------------------------------------------ */
-.options{display:flex;flex-direction:column;gap:16px;margin:28px 0}
-.option{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:22px 24px;display:flex;flex-direction:column;gap:8px}
-.option .tag{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--sun);font-weight:500}
-.option h2{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--ink);margin:0}
-.option p{font-size:.92rem;color:var(--gray);line-height:1.7}
-
-/* ------------------------------------------------------------
-   Downloads CTA
-   ------------------------------------------------------------ */
-.downloads{margin:48px 0 16px;display:flex;flex-direction:column;gap:16px}
-.dl-primary{background:var(--ink);border-radius:12px;padding:32px 28px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:16px}
-.dl-eyebrow{font-family:var(--serif);font-size:1.25rem;font-weight:500;color:#fff;line-height:1.2}
-.dl-primary .dl-body{font-size:.92rem;color:#c8d8e8;line-height:1.7;max-width:480px}
-.dl-secondary{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:12px}
-.dl-secondary-head{font-family:var(--serif);font-size:1.1rem;font-weight:500;color:var(--ink)}
-.dl-secondary .dl-body{font-size:.92rem;color:var(--gray);line-height:1.7}
-.btn-outline{display:inline-block;align-self:flex-start;font-family:var(--sans);font-size:.8rem;font-weight:600;color:var(--ink);border:2px solid var(--ink);border-radius:6px;padding:10px 20px;transition:background .15s,color .15s}
-.btn-outline:hover{background:var(--ink);color:#fff}
-.btn-outline:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
-
-
-@media(max-width:520px){
-  html{font-size:19px}
-  .two-col{grid-template-columns:1fr}
-}
-</style>
+</body>
+</html>
