@@ -275,6 +275,16 @@ main{outline:none}
 .footer-legal{font-size:.75rem;color:var(--soft);line-height:1.65}
 
 /* ------------------------------------------------------------
+   Flags (icon + body rows)
+   ------------------------------------------------------------ */
+.flags{display:flex;flex-direction:column;gap:16px;margin:28px 0}
+.flag{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px 22px;display:flex;gap:16px;align-items:flex-start}
+.flag-icon{font-size:1.4rem;line-height:1;flex-shrink:0;margin-top:2px}
+.flag-body{display:flex;flex-direction:column;gap:6px}
+.flag-body h2{font-family:var(--sans);font-weight:600;font-size:.92rem;color:var(--ink);margin:0}
+.flag-body p{font-size:.88rem;color:var(--gray);line-height:1.65}
+
+/* ------------------------------------------------------------
    Budget grid
    ------------------------------------------------------------ */
 .budget-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0}
