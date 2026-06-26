@@ -298,6 +298,65 @@ main{outline:none}
    Responsive
    ------------------------------------------------------------ */
 /* ------------------------------------------------------------
+   Home page
+   ------------------------------------------------------------ */
+.home-hero{padding:56px 0 32px}
+.home-hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(2.2rem,7vw,3.4rem);line-height:1.05;letter-spacing:-.02em;margin-bottom:20px}
+.home-hero h1 em{font-style:normal;color:var(--blue)}
+.home-sub{font-size:1rem;color:var(--gray);line-height:1.75;max-width:540px;margin-bottom:0}
+.home-audience{font-size:.95rem;color:var(--blue);line-height:1.75;margin:32px 0 0;font-style:italic}
+.home-rule{border:none;border-top:1px solid var(--line);margin:40px 0}
+.home-phases{padding:8px 0 16px}
+.home-phases h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.6rem,5vw,2.2rem);line-height:1.1;letter-spacing:-.01em;margin:10px 0 16px}
+.phase-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0 16px}
+.phase-card{border-radius:12px;padding:28px 24px;display:flex;flex-direction:column;gap:14px}
+.phase-card-dark{background:var(--ink)}
+.phase-card-light{background:var(--card);border:1px solid var(--line)}
+.phase-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+.phase-card-dark .phase-label{color:#8AAEC8}
+.phase-card-light .phase-label{color:var(--blue)}
+.phase-card h3{font-family:var(--serif);font-weight:500;font-size:1.2rem;line-height:1.2;margin:0}
+.phase-card-dark h3{color:#fff}
+.phase-card-light h3{color:var(--ink)}
+.phase-card p{font-size:.88rem;line-height:1.7;margin:0;flex:1}
+.phase-card-dark p{color:#C8D8E8}
+.phase-card-light p{color:var(--gray)}
+.phases-nudge{font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);text-align:center;margin-top:8px}
+
+.home-workbook{padding:8px 0 16px}
+.home-workbook h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.5rem,5vw,2rem);line-height:1.15;letter-spacing:-.01em;margin:10px 0 20px}
+.workbook-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0}
+.workbook-feature{background:var(--tint);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.wf-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-weight:500;display:block;margin-bottom:6px}
+.workbook-feature p{font-size:.85rem;color:var(--gray);line-height:1.6;margin:0}
+.workbook-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+
+.home-preview{padding:8px 0 16px}
+.preview-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:16px}
+.preview-head h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.5rem,5vw,2rem);line-height:1.1;letter-spacing:-.01em;margin:8px 0 0}
+.preview-see-all{font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);white-space:nowrap}
+.preview-see-all:hover{text-decoration:underline}
+.preview-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:24px 0 0}
+.preview-card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 20px;display:flex;flex-direction:column;gap:6px;transition:border-color .15s,box-shadow .15s}
+.preview-card:hover{border-color:var(--blue);box-shadow:0 2px 12px rgba(6,42,76,.07)}
+.preview-card:focus-visible{outline:3px solid var(--sun);outline-offset:2px;border-radius:10px}
+.preview-card h3{font-family:var(--serif);font-weight:500;font-size:1rem;color:var(--ink);margin:0;line-height:1.25}
+.preview-card p{font-size:.82rem;color:var(--gray);line-height:1.6;margin:0}
+
+.home-footer-tagline{font-family:var(--serif);font-size:.95rem;font-style:italic;color:var(--soft);margin-bottom:12px}
+
+@media(max-width:520px){
+  html{font-size:19px}
+  .two-col{grid-template-columns:1fr}
+  .budget-grid{grid-template-columns:1fr}
+  .verdict{grid-template-columns:1fr}
+  .phase-cards{grid-template-columns:1fr}
+  .workbook-grid{grid-template-columns:1fr}
+  .preview-cards{grid-template-columns:1fr}
+  .preview-head{flex-direction:column;align-items:flex-start}
+}
+
+/* ------------------------------------------------------------
    Comparison page
    ------------------------------------------------------------ */
 .compare-hero .lead{margin-bottom:24px}
