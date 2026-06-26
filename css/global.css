@@ -298,6 +298,36 @@ main{outline:none}
    Responsive
    ------------------------------------------------------------ */
 /* ------------------------------------------------------------
+   Legal / prose pages
+   ------------------------------------------------------------ */
+.subnav{background:var(--card);border-bottom:1px solid var(--line);padding:0 22px;overflow:hidden}
+.subnav-in{display:flex;gap:6px;overflow-x:auto;padding:10px 0;scrollbar-width:none}
+.subnav-in::-webkit-scrollbar{display:none}
+.subnav-in a{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);background:var(--tint);border:1px solid var(--line);border-radius:20px;padding:5px 12px;white-space:nowrap;transition:background .15s,color .15s}
+.subnav-in a:hover{background:var(--tint2);color:var(--ink)}
+.subnav-in a:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+
+.section-anchor{scroll-margin-top:72px;padding:48px 0 32px}
+.page-head{margin-bottom:32px}
+.page-head h1{font-family:var(--serif);font-weight:500;font-size:clamp(1.8rem,5vw,2.4rem);line-height:1.1;letter-spacing:-.01em;margin:10px 0 14px}
+.page-head .sub{font-size:1rem;color:var(--gray);line-height:1.7;margin:0}
+.sec-head{margin-bottom:28px}
+.sec-head h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.5rem,4vw,2rem);line-height:1.15;letter-spacing:-.01em;margin:10px 0 12px}
+.sec-head .sub{font-size:.95rem;color:var(--gray);line-height:1.7;margin:0}
+.sec-divider{border:none;border-top:1px solid var(--line);margin:16px 0}
+
+.prose{max-width:640px}
+.prose p{font-size:.95rem;color:var(--gray);line-height:1.8;margin-bottom:18px}
+.prose h2{font-family:var(--serif);font-weight:500;font-size:1.2rem;color:var(--ink);margin:32px 0 10px}
+.prose h3{font-family:var(--sans);font-weight:600;font-size:.95rem;color:var(--ink);margin:24px 0 8px}
+.prose ul{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:18px}
+.prose ul li{padding-left:20px;position:relative;font-size:.92rem;color:var(--gray);line-height:1.7}
+.prose ul li::before{content:"–";position:absolute;left:0;color:var(--blue)}
+.prose a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.prose a:hover{color:var(--ink)}
+.prose em{color:var(--soft)}
+
+/* ------------------------------------------------------------
    Home page
    ------------------------------------------------------------ */
 .home-hero{padding:56px 0 32px}
