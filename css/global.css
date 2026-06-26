@@ -298,6 +298,37 @@ main{outline:none}
    Responsive
    ------------------------------------------------------------ */
 /* ------------------------------------------------------------
+   Services page
+   ------------------------------------------------------------ */
+.standards-note{background:var(--tint2);border-left:3px solid var(--blue);border-radius:0 8px 8px 0;padding:16px 20px;margin:28px 0;font-size:.92rem;color:var(--gray);line-height:1.7}
+.standards-note strong{color:var(--ink)}
+.section-divider{display:block;font-family:var(--mono);font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:var(--soft);text-align:center;margin:40px 0 8px;padding-top:16px;border-top:1px solid var(--line)}
+.category{padding:32px 0 16px}
+.cat-label{font-family:var(--mono);font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);font-weight:500;display:block;margin-bottom:8px}
+.category h2{font-family:var(--serif);font-weight:500;font-size:clamp(1.3rem,4vw,1.7rem);line-height:1.2;letter-spacing:-.01em;margin-bottom:16px}
+.single-note{font-size:.85rem;color:var(--soft);font-style:italic;margin:8px 0 16px;line-height:1.65}
+.pick-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+.pick-grid:has(.pick-card:only-child){grid-template-columns:1fr;max-width:480px}
+.pick-card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.pick-card.pick-primary{border-top:3px solid var(--blue)}
+.pick-head{background:var(--tint);padding:16px 20px;display:flex;flex-direction:column;gap:6px}
+.pick-tag{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;display:inline-block;padding:3px 8px;border-radius:4px}
+.pick-tag-primary{background:var(--blue);color:#fff}
+.pick-tag-secondary{background:var(--line);color:var(--soft)}
+.pick-head h3{font-family:var(--sans);font-weight:600;font-size:.92rem;color:var(--ink);margin:0}
+.pick-body{padding:16px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.pick-rep{font-family:var(--mono);font-size:.65rem;letter-spacing:.06em;color:var(--sun);font-weight:500}
+.pick-body p{font-size:.88rem;color:var(--gray);line-height:1.7;margin:0}
+.pick-caveat{font-size:.82rem;color:var(--soft);background:var(--tint);border-left:2px solid var(--sun);border-radius:0 6px 6px 0;padding:10px 12px;line-height:1.65}
+.pick-btn{display:inline-block;align-self:flex-start;margin-top:auto;font-family:var(--sans);font-size:.8rem;font-weight:600;background:var(--ink);color:#fff;border-radius:6px;padding:9px 18px;transition:opacity .15s}
+.pick-btn:hover{opacity:.85}
+.pick-btn:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.pick-btn-outline{background:transparent;color:var(--ink);border:2px solid var(--line)}
+.pick-btn-outline:hover{border-color:var(--ink);opacity:1}
+.aff-disclosure{background:var(--tint);border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin:36px 0 16px;font-size:.82rem;color:var(--soft);line-height:1.7}
+.aff-disclosure strong{color:var(--ink)}
+
+/* ------------------------------------------------------------
    About / contact page
    ------------------------------------------------------------ */
 .about-cta{background:var(--tint);border:1px solid var(--line);border-radius:12px;padding:28px 24px;margin:36px 0;display:flex;flex-direction:column;gap:12px;max-width:640px}
