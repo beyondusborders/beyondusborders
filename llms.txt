@@ -1,0 +1,52 @@
+# Beyond US Borders
+> Retirement abroad research for people on fixed incomes, managing health conditions, moving with pets, and relocating alone. Honest, practical, unglamorous.
+
+Beyond US Borders is a static research site — no relocation service, no rankings, no beach photos. It covers the practical questions that actually decide whether retiring abroad works: income portability, Medicare gaps, healthcare access, mobility, pets, hidden costs, and solo female safety. Content is organized into Topics (what you need to know before choosing a destination) and Destinations (guides built around specific needs).
+
+## Core pages
+- Home: https://beyondusborders.com/
+- Topics hub: https://beyondusborders.com/topics/
+- Destinations hub: https://beyondusborders.com/destinations/
+- Country comparison: https://beyondusborders.com/destinations/compare/
+- Services: https://beyondusborders.com/services/
+- About: https://beyondusborders.com/about/
+- Legal: https://beyondusborders.com/legal/
+
+## Topics
+Research and planning guides covering the questions that matter before any destination decision.
+
+- How to start your research: https://beyondusborders.com/topics/research/
+- SSDI & Social Security abroad: https://beyondusborders.com/topics/ssdi/
+- Medicare & healthcare coverage abroad: https://beyondusborders.com/topics/medicare/
+- Fixed income reality check: https://beyondusborders.com/topics/budget/
+- Pre-existing conditions & international healthcare: https://beyondusborders.com/topics/pre-existing/
+- Planning for your future self: https://beyondusborders.com/topics/future-self/
+- Mobility & daily infrastructure: https://beyondusborders.com/topics/mobility/
+- Solo female safety abroad: https://beyondusborders.com/topics/solo-safety/
+- The costs nobody warns you about: https://beyondusborders.com/topics/hidden-costs/
+- Shipping your car vs starting over: https://beyondusborders.com/topics/vehicles/
+- Moving abroad with pets: https://beyondusborders.com/topics/pets/
+
+## Destinations
+Destination guides organized by specific need — not country rankings.
+
+- Warm & dry climates: https://beyondusborders.com/destinations/warm-dry-climates/
+- Flat & walkable cities: https://beyondusborders.com/destinations/flat-walkable-cities/
+- Fixed income friendly: https://beyondusborders.com/destinations/fixed-income/
+- Progressive illness & chronic conditions: https://beyondusborders.com/destinations/progressive-illness/
+- Solo women: https://beyondusborders.com/destinations/solo-women/
+- Pet-friendly destinations: https://beyondusborders.com/destinations/pets/
+- Healthcare access: https://beyondusborders.com/destinations/healthcare-access/
+- Closest to the US: https://beyondusborders.com/destinations/closest-to-us/
+- Safest countries: https://beyondusborders.com/destinations/safest-countries/
+- Accessible housing: https://beyondusborders.com/destinations/accessible-housing/
+- Dollar economies: https://beyondusborders.com/destinations/dollar-economies/
+- Destinations under stress: https://beyondusborders.com/destinations/destinations-under-stress/
+- Country comparison (18 destinations): https://beyondusborders.com/destinations/compare/
+
+## Free downloads
+- Destination Determination Workbook (PDF): https://beyondusborders.com/downloads/Destination-Determination-Workbook.pdf
+- Moving Abroad Action Planner (PDF): https://beyondusborders.com/downloads/Moving-Abroad-Action-Planner.pdf
+
+## About this site
+Built by Mindy, a woman on a fixed income with a progressive neurological condition, pets, and a serious research habit. Target audience: women 55+ on fixed or limited incomes, with potential mobility considerations, researching international retirement. Content is general research and information only — not financial, legal, medical, tax, or immigration advice. Some links are affiliate links; disclosed on every page.
