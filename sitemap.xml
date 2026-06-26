@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
+  <url><loc>https://beyondusborders.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://beyondusborders.com/about/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://beyondusborders.com/services/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://beyondusborders.com/legal/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <!-- Topics hub -->
+  <url><loc>https://beyondusborders.com/topics/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Topic pages -->
+  <url><loc>https://beyondusborders.com/topics/research/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/ssdi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/medicare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/budget/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/pre-existing/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/future-self/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/mobility/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/solo-safety/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/hidden-costs/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/vehicles/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/pets/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Destinations hub -->
+  <url><loc>https://beyondusborders.com/destinations/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Destination pages -->
+  <url><loc>https://beyondusborders.com/destinations/warm-dry-climates/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/flat-walkable-cities/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/fixed-income/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/progressive-illness/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/solo-women/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/pets/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/healthcare-access/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/closest-to-us/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/safest-countries/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/accessible-housing/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/dollar-economies-currency-cert/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/destinations-under-stress/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/destinations/compare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+</urlset>
