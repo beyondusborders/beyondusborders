@@ -40,6 +40,16 @@ img{display:block;max-width:100%;height:auto}
 main{outline:none}
 
 /* ------------------------------------------------------------
+   Links
+   ------------------------------------------------------------ */
+.prose a, .checklist a, .dest-p a, .lead a, .note a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* ------------------------------------------------------------
    Header & hamburger nav
    ------------------------------------------------------------ */
 #menu-toggle{position:absolute;opacity:0;width:0;height:0;pointer-events:none}
