@@ -43,7 +43,7 @@ main{outline:none}
    Links
    ------------------------------------------------------------ */
 .prose a, .checklist a, .dest-p a, .lead a, .note a {
-  color: var(--blue);
+  color: var(--sun);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
