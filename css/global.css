@@ -42,7 +42,7 @@ main{outline:none}
 /* ------------------------------------------------------------
    Links
    ------------------------------------------------------------ */
-.prose a, .checklist a, .dest-p a, .lead a, .note a {
+.prose a, .checklist a, .dest-p a, .lead a, .note a, .intro a {
   color: var(--sun);
   text-decoration: underline;
   text-decoration-thickness: 1px;
