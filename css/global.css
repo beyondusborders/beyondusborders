@@ -501,6 +501,18 @@ main{outline:none}
 .country-dossier .honest{margin:0 18px 8px}
 
 /* ------------------------------------------------------------
+   Quick Reference
+   ------------------------------------------------------------ */
+.qr-list{display:flex;flex-direction:column;gap:0;margin:28px 0}
+.qr-item{padding:28px 0;border-bottom:1px solid var(--line)}
+.qr-item:last-child{border-bottom:none}
+.qr-item h2{font-family:var(--serif);font-weight:500;font-size:1.1rem;color:var(--ink);margin-bottom:10px;line-height:1.3}
+.qr-item p{font-size:.92rem;color:var(--gray);line-height:1.75;margin-bottom:12px}
+.qr-item a{font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--sun);text-decoration:none}
+.qr-item a:hover{text-decoration:underline}
+.qr-item a:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:2px}
+
+/* ------------------------------------------------------------
    Responsive
    ------------------------------------------------------------ */
 @media(max-width:760px){
