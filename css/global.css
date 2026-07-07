@@ -78,6 +78,34 @@ main{outline:none}
 .nav-menu a:focus-visible{outline:3px solid var(--sun);outline-offset:-3px}
 
 /* ------------------------------------------------------------
+   Compare Nav
+   ------------------------------------------------------------ */
+.table-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 24px 0 32px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(0,0,0,.08);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.table-jump-nav a {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--sun);
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color .15s ease;
+}
+.table-jump-nav a:hover,
+.table-jump-nav a:focus-visible {
+  border-bottom-color: var(--sun);
+}
+
+/* ------------------------------------------------------------
    Buttons
    ------------------------------------------------------------ */
 .btn-sun{font-family:var(--sans);font-size:.8rem;font-weight:600;background:var(--sun);color:#fff;border-radius:6px;padding:10px 20px;letter-spacing:.01em;white-space:nowrap;transition:opacity .15s}
