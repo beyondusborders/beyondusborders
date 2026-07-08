@@ -1,0 +1,26 @@
+name: Ping IndexNow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ping-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Ping IndexNow with full sitemap
+        run: |
+          urls=$(grep -oP '(?<=<loc>).*?(?=</loc>)' sitemap.xml)
+          json_urls=$(printf '%s\n' "$urls" | jq -R . | jq -s .)
+          curl -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n \
+                --arg host "beyondusborders.com" \
+                --arg key "c4a9f18e72d64b0fa35c9e81d7ab46f2" \
+                --arg keyLocation "https://beyondusborders.com/c4a9f18e72d64b0fa35c9e81d7ab46f2.txt" \
+                --argjson urlList "$json_urls" \
+                '{host: $host, key: $key, keyLocation: $keyLocation, urlList: $urlList}')"
