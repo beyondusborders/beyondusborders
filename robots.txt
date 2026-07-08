@@ -1,3 +1,37 @@
+# Retrieval/search bots — build the index AI engines cite from. Allow.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Agent bots — fetch a page live when a user asks their AI to check it. Allow.
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Training bots — feed model training corpora, not citations.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Everything else
 User-agent: *
 Allow: /
 
