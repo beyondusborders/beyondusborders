@@ -23,6 +23,7 @@
   <url><loc>https://beyondusborders.com/topics/hidden-costs/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beyondusborders.com/topics/vehicles/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beyondusborders.com/topics/pets/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://beyondusborders.com/topics/phone-service/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Destinations hub -->
   <url><loc>https://beyondusborders.com/destinations/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -42,6 +43,9 @@
   <url><loc>https://beyondusborders.com/destinations/destinations-under-stress/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beyondusborders.com/destinations/underrated/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://beyondusborders.com/destinations/compare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Gear & Essentials -->
+  <url><loc>https://beyondusborders.com/gear-essentials/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- Quick Reference hub -->
   <url><loc>https://beyondusborders.com/quick-reference/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
