@@ -1,3 +1,10 @@
+---
+breadcrumb:
+  - title: "Topics"
+    url: /topics/
+  - title: "Medicare &amp; Healthcare"
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,37 +34,9 @@
 </head>
 <body>
   
-<input type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
-<header class="site-header">
-  <div class="header-left">
-    <label class="hamburger" for="menu-toggle" aria-label="Open navigation menu">
-      <span></span><span></span><span></span>
-    </label>
-    <a class="wordmark" href="/">
-      <img src="/busb_logo.png" alt="Beyond US Borders" width="40" height="40" style="border-radius:4px">
-    </a>
-  </div>
-  <a class="btn-sun" href="/downloads/Destination-Determination-Workbook.pdf" target="_blank" rel="noopener">Free Workbook</a>
-</header>
-<nav class="nav-menu" aria-label="Site navigation">
-  <a href="/">Home</a>
-  <a href="/topics/">Topics</a>
-  <a href="/destinations/">Destinations</a>
-  <a href="/destinations/compare/">Compare Countries</a>
-  <a href="/quick-reference/">Quick Reference</a>
-  <a href="/free-tools/">Free Tools</a>
-  <a href="/services/">Services</a>
-  <a href="/about/">About</a>
-  <a href="/legal/">Legal</a>
-</nav>
+{% include header.html %}
 <div class="wrap">
-  <nav aria-label="Breadcrumb" class="breadcrumb">
-    <a href="/">Home</a>
-    <span aria-hidden="true">›</span>
-    <a href="/topics/">Topics</a>
-    <span aria-hidden="true">›</span>
-    <span aria-current="page">Medicare &amp; Healthcare</span>
-  </nav>
+  {% include breadcrumb.html %}
   <!-- Hero divider -->
   <svg class="hrule" viewBox="0 0 700 28" preserveAspectRatio="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
     <circle cx="620" cy="10" r="7" fill="#C9912F" opacity=".9"/>
@@ -162,22 +141,7 @@
 
 </div><!-- /wrap -->
 
-<!-- Footer -->
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-inner">
-      <nav aria-label="Footer navigation" class="footer-links">
-        <a href="/">Home</a>
-        <a href="/topics/">Topics</a>
-        <a href="/destinations/">Destinations</a>
-        <a href="/services/">Services</a>
-        <a href="/legal/">Legal</a>
-        <a href="/about/">About</a>
-      </nav>
-      <p class="footer-legal">Beyond US Borders provides general research and information only — not financial, legal, medical, tax, or immigration advice. Some links are affiliate links; we may earn a commission at no cost to you. &copy; 2026 Beyond US Borders.</p>
-    </div>
-  </div>
-</footer>
+{% include footer.html %}
 
    
 <script>
