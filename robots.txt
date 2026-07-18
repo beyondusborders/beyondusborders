@@ -1,38 +1,49 @@
 # Retrieval/search bots — build the index AI engines cite from. Allow.
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 User-agent: Claude-SearchBot
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 # Agent bots — fetch a page live when a user asks their AI to check it. Allow.
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 User-agent: Claude-User
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 User-agent: Perplexity-User
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 # Training bots — feed model training corpora, not citations.
 User-agent: GPTBot
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 User-agent: CCBot
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 # Everything else
 User-agent: *
 Allow: /
+Disallow: /thank-you-starter-kit/
 
 Sitemap: https://beyondusborders.com/sitemap.xml
