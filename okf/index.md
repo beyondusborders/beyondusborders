@@ -8,7 +8,7 @@ Beyond US Borders is a static research site organized around the questions that 
 
 ## Audience
 
-American women 55+ on fixed or modest incomes, often managing health conditions, mobility considerations, pets, and solo relocation.
+American people 55+ on fixed or modest incomes, often managing health conditions, mobility considerations, pets, and solo relocation.
 
 ## Content Structure
 
