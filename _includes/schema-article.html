@@ -1,0 +1,24 @@
+{%- if page.breadcrumb -%}
+{%- assign article_crumb = page.breadcrumb | last -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ article_crumb.title | jsonify }},
+  "url": {{ site.url | append: page.url | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site.url | append: "/busb_logo.png" | jsonify }}
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Mindy",
+    "url": {{ site.url | append: "/about/" | jsonify }}
+  }
+}
+</script>
+{%- endif -%}
