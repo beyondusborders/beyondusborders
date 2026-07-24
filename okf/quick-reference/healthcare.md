@@ -17,4 +17,4 @@ timestamp: 2026-07-02T00:00:00Z
 
 **Best countries for English-speaking healthcare?** Malta and Belize have English as an official language. Malaysia's private hospitals operate largely in English. Panama City, Medellín, and major Costa Rican hospitals have English-speaking staff.
 
-**Cost of expat health insurance for seniors?** Rough range $150–400/month for women 55–65 for international private insurance. Costa Rica's Caja ~$60–100/month for residents. France covers serious chronic conditions at 100% once enrolled.
+**Cost of expat health insurance for seniors?** Rough range $150–400/month for people 55–65 for international private insurance. Costa Rica's Caja ~$60–100/month for residents. France covers serious chronic conditions at 100% once enrolled.
