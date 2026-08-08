@@ -559,6 +559,12 @@ main{outline:none}
 .compare-wide-inner{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;overflow:hidden}
 .compare-wide h2{margin-bottom:8px}
 .compare-hint{font-size:.86rem;color:var(--gray);line-height:1.6;margin-bottom:14px}
+.tier-legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin-bottom:14px;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--gray)}
+.tier-legend-item{display:inline-flex;align-items:center;gap:6px}
+.tier-dot{display:inline-block;width:9px;height:9px;border-radius:50%;flex:none}
+.tier-dot-1{background:#5A9E3D}
+.tier-dot-2{background:#6596C1}
+.tier-dot-3{background:#C9912F}
 .cmp-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card);max-width:100%;position:relative}
 .cmp-table{width:100%;min-width:980px;border-collapse:separate;border-spacing:0;font-size:.82rem;line-height:1.45}
 .cmp-table th,.cmp-table td{padding:14px 12px;border-bottom:1px solid var(--line);vertical-align:middle;text-align:left}
@@ -576,6 +582,9 @@ main{outline:none}
 .cmp-pill-warn{background:#FAEEDA;color:#75450A;border-color:#E8D1A4}
 .cmp-pill-bad{background:#FCEBEB;color:#8B2424;border-color:#F0BFC0}
 .cmp-pill-blue{background:#E6F1FB;color:#185FA5;border-color:#C7DFF3}
+.cmp-pill-tier1{background:#EAF3E2;color:#3C6B2A;border-color:#5A9E3D}
+.cmp-pill-tier2{background:#E6F1FB;color:#2B5D85;border-color:#6596C1}
+.cmp-pill-tier3{background:#FBF0DE;color:#8A6314;border-color:#C9912F}
 .cmp-symbol{font-size:1rem;font-weight:700}
 .cmp-yes{color:#1f5d35}
 .cmp-maybe{color:#75450A}
